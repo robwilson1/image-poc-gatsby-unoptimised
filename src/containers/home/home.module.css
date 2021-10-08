@@ -1,11 +1,24 @@
 .main {
-    padding: 96px;
     font-family: "-apple-system, Roboto, sans-serif, serif";
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
   
-  .heading {
-    margin-top: 0;
-    margin-bottom: 64px;
-    max-width: 320px;
-  }
+.heading {
+    margin: 5rem;
+    text-align: center;
+}
   
+.heroImage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.otherImages {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
